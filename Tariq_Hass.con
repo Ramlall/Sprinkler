@@ -1,0 +1,47 @@
+                             <&CNAME&>                 
+                             <&CADDR&>              
+                             <&CTYST&>                
+
+                         HYDRAULIC CALCULATIONS FOR  
+            __________________________________________________
+            __________________________________________________
+            __________________________________________________
+
+            DRAWING NUMBER:________        DATE: &TODAY& 
+                                -DESIGN DATA-       
+      REMOTE AREA NUMBER:_______     REMOTE AREA LOCATION:__________ 
+
+      OCCUPANCY CLASSIFICATION:_____________________________________ 
+      DENSITY:______________ gpm/sq. ft.     
+      AREA OF APPLICATION: ________________ sq. ft.     
+
+      COVERAGE PER SPRINKLER:________________ sq. ft.     
+      TYPE OF SPRINKLERS CALCULATED:_______________ 
+      NUMBER OF SPRINKLERS CALCULATED:_____________ 
+
+     *IN-RACK SPRINKLER DEMAND: ______________ gpm
+      HOSE-STREAM DEMAND:________________ gpm
+      TOTAL WATER REQUIRED (INCLUDING HOSE):____________ gpm
+      FLOW AND PRESSURE (AT BASE OF RISER):____gpm @______ psi 
+
+      TYPE OF SYSTEM:___________________ 
+     *VOLUME OF DRY OR PREACTION SYSTEM:_________________ 
+     *DETAILS:________________ 
+      WATER SUPPLY 
+         Source: _______  Test Date: ________ Test By:_________ 
+         Location: ____________________________________________ 
+         Static:______ psi Residual:_____ psi Flow:______ gpm  
+         Source Elevation Relative to Finished Floor Level:______ ft. 
+
+      INSTALLING CONTRACTOR 
+         Name:______________________________________________ 
+         Address:___________________________________________ 
+         Phone:_________________ Certification number:____________ 
+
+      NAME OF DESIGNER:___________________________________________ 
+      AUTHORITY HAVING JURISDICTION:______________________________ 
+
+      NOTES:______________________________________________________ 
+      Calculations performed by HASS under license # &CLICE&  , 
+      granted by HRS SYSTEMS, INC. 
+              (Notes continue after pipe calculations results.)   
