@@ -35,11 +35,16 @@ void CalculateBranch(double pressureprevious, double kprevious, double k, double
 		}
 	}
 
-void CalculateNode(double pressureprevious, double kprevious, double k, double pipeLength, double diameter)
+void CalculateNode(double pressureprevious, double q, double kprevious, double k, double pipeLength, double diameter)
 	{
 	// Find flow of previous pipe.
 	double qprevious = kprevious*sqrt(pressureprevious);
-	
+
+	if (qprevious == 0)
+		{
+		qprevious = q;
+		}
+
 	//double friction = 0.002083 * pipeLength * pow(100/C, 1.85) * (pow(qprevious, 1.85) / pow(diameter, 4.8655));
 	double h = 0.00064*pipeLength*pow(qprevious,1.85)/pow(diameter, 4.8655);
 
@@ -78,9 +83,9 @@ void GetInfo()
 	cout << "\nEnter the pressure of the previous node. ";
 	cin >> pressure;
 		
-	/*double q;
+	double q;
 	cout << "Enter the Q of the previous node. ";
-	cin >> q;*/
+	cin >> q;
 
 	double pk;
 	cout << "Enter the K value for your previous node. ";
@@ -105,7 +110,7 @@ void GetInfo()
 		}
 	else 
 		{
-		CalculateNode(pressure, pk, k, pipeLength, diameter);
+		CalculateNode(pressure, q,  pk, k, pipeLength, diameter);
 		}
 	}
 
